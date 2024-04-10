@@ -17,14 +17,13 @@ public class Main {
                             (A)dd
                             (S)ubtract
                             (M)ultiply
-                            (D)ivide 
-                        Please select an option: """);
+                            (D)ivide
+                        Please select an option:""");
         String option = scanner.nextLine();
 
         if(option.equalsIgnoreCase("A")){
             System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
         }
-
         else if(option.equalsIgnoreCase("S")){
             System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
         }
@@ -34,15 +33,9 @@ public class Main {
         else if(option.equalsIgnoreCase("D")){
             System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
         }
-
-
-
-
-
-
-
-
-
+        else{
+            System.out.println("The input you chose is invalid, please try again! ");
+        }
 
     }
 }
