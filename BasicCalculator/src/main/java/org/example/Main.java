@@ -29,16 +29,16 @@ public class Main {
 
         //applying my math functions
         if(option.equalsIgnoreCase("A") || option.equalsIgnoreCase("Add")){
-            System.out.printf("This is your sum: %.2f ", sum);
+            System.out.printf("%.2f + %.2f = %.2f" , number1, number2, sum);
         }
         else if(option.equalsIgnoreCase("S") || option.equalsIgnoreCase("Subtract")){
-            System.out.printf("This is your difference: %.2f ", difference);
+            System.out.printf("%.2f - %.2f = %.2f ",number1, number2, difference);
         }
         else if(option.equalsIgnoreCase("M") || option.equalsIgnoreCase("Multiply")){
-            System.out.printf("This is your product: %.2f ", product)   ;
+            System.out.printf("%.2f * %.2f = %.2f", number1, number2, product)   ;
         }
         else if(option.equalsIgnoreCase("D") || option.equalsIgnoreCase("Divide")){
-            System.out.printf("This is your quotient: %.2f ", quotient);
+            System.out.printf("%.2f / %.2f = %.2f", number1, number2, quotient);
         }
         else{
             System.out.println("The input you chose is invalid, please try again! ");
@@ -47,20 +47,16 @@ public class Main {
     }
     //my math functions :0
     public static double addition(double number1, double number2){
-        double sum = number1 + number2;
-        return sum;
+       return number1 + number2;
     }
     public static double subtraction(double number1, double number2){
-        double difference = number1 - number2;
-        return difference;
+        return number1 - number2;
     }
     public static double multiplication(double number1, double number2){
-        double product = number1 * number2;
-        return product;
+        return number1 * number2;
     }
     public static double division(double number1, double number2){
-        double quotient = number1 / number2;
-        return quotient;
+        return number1 / number2;
     }
 
 }
