@@ -25,7 +25,7 @@ public class Main {
         System.out.print("What pickup date will work best for you? " + "Please write date as dd/mm/year: ");
         String pickupDate = scanner.nextLine();
 
-        System.out.print("Great! \nNow, How many days will the rental be for? ");
+        System.out.print("Great! \nNow, How many days will the rental be for? It will be $29.99/day: ");
         double daysNeeded = scanner.nextDouble();
         double total = baseRental * daysNeeded;
 
@@ -76,10 +76,10 @@ public class Main {
                 return;
         }
 
-        System.out.println("What is your current age? ");
+        System.out.println("What is your current age? Note: There will be a 30% surcharge added for people under 25...");
         int age = scanner.nextInt();
         if (age < 25) {
-            System.out.println("A surcharge of 30% will now be added to your total...\nHere is your receipt: ");
+            System.out.println("A surcharge will now be added to your total...\nHere is your receipt: ");
             underAgeCharge = ((baseRental * daysNeeded) * .30);
             total = total + underAgeCharge;
         }
@@ -94,8 +94,7 @@ public class Main {
     }
 }
 /*
-MY PSEUDO CODE
-SETUP FOR CAR CALCULATOR SETUP!!!
+MY PSEUDO CODE!!!
 Ask the person for these things:
 -preferred pick-up date(as a String)
     collect their input
