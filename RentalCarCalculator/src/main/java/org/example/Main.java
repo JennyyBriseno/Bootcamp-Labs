@@ -17,6 +17,7 @@ public class Main {
         gps
         roadsideService
         age
+        options
         */
         //These variables need to be stated before any modification or else they aren't valid
         double baseRental = 29.99;
@@ -69,6 +70,9 @@ public class Main {
                 break;
             case "N":
                 System.out.println("No worries! Last question:  ");
+            default:
+                System.out.println("Error! Invalid input ;( " );
+                return;
         }
 
         System.out.println("What is your current age? ");
