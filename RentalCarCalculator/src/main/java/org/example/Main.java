@@ -36,7 +36,7 @@ public class Main {
         switch (tollTag.toUpperCase()) {
             case "Y":
                 System.out.println("Your charge will now be added...");
-                total = total + 3.95;
+                total = total + (3.95 * daysNeeded);
                 break;
             case "N":
                 System.out.println("okay! Next question! ");
@@ -51,7 +51,7 @@ public class Main {
         switch (gps.toUpperCase()) {
             case "Y":
                 System.out.println("Your charge will now be added...");
-                total = total + 2.95;
+                total = total + (2.95 * daysNeeded);
                 break;
             case "N":
                 System.out.println("No worries! Next Question! ");
@@ -66,10 +66,11 @@ public class Main {
         switch (roadsideService.toUpperCase()) {
             case "Y":
                 System.out.println("Great!, we will add that charge for you! ");
-                total = total + 3.95;
+                total = total + (3.95 * daysNeeded);
                 break;
             case "N":
                 System.out.println("No worries! Last question:  ");
+                break;
             default:
                 System.out.println("Error! Invalid input ;( " );
                 return;
@@ -92,3 +93,26 @@ public class Main {
         System.out.println("Thank you for choosing Jenny's Car Rental! Have a great day! ;) ");
     }
 }
+/*
+MY PSEUDO CODE
+SETUP FOR CAR CALCULATOR SETUP!!!
+Ask the person for these things:
+-preferred pick-up date(as a String)
+    collect their input
+-how many days they will like for the rental
+    collect their input
+-If they want an electronic toll tag at $3.95/day (yes/no)
+    collect their input
+    calculate total
+-If they want roadside assistance at $2.95/day (yes/no)
+    collect their input
+    calculate total
+-If they want a gps for $3.95/day
+    collect their input
+    calculate total
+-What their current age is
+    collect their input
+    add a charge of 30% if they are under 25 years
+    -calculate based on their input
+-display and calculate the basic car rental price plus the total of what they choose and total price overall
+*/
