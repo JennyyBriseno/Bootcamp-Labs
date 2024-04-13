@@ -38,14 +38,13 @@ public class Main {
 
         System.out.print("Here is your summary:\n");
         System.out.printf("""
-                        Initial deposit: $%.2f
-                        Initial interest: %.3f
-                        Number of Years: %.0f years
-                        Future Value: $%.2f
-                        Total Interest Earned: $%.2f
+                       Initial deposit: $%.2f
+                       Initial interest: %.3f
+                       Number of Years: %.0f years
+                       Future Value: $%.2f
+                       Total Interest Earned: $%.2f
                        """, initialDeposit, initialInterest, years, futureValue, totalInterest);
-        System.out.println("");
-
+        System.out.println("Thank you for choosing Jenny's Future CD Calculator! Have a great day :) ");
 
     }
     //CREATING FUNCTIONS
@@ -69,7 +68,6 @@ public class Main {
 //purpose: To determine the future value of a CD
 //
 //Perform a welcoming :)
-//print the purpose of the calculator
 //list out the list of information that we will need {
 //deposit
 //interest rate
