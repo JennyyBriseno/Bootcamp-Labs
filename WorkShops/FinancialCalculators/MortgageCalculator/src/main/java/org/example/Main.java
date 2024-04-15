@@ -94,8 +94,4 @@ public class Main {
 //        Display the final calculations
 //        monthly payment
 //        total interest payed
-
-
-
-//    }
 }

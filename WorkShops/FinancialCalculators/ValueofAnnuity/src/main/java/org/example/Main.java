@@ -35,7 +35,7 @@ public class Main {
         System.out.printf("""
                 Based on the information you provided us...
                 Monthly payment: $%.2f
-                Interest Rate: %.3f
+                Interest Rate: %.3f 
                 Number of years: %.0f years
                 """, monthlyPayment, interestRate, years);
         System.out.printf("To fund this annuity, you would need to invest: $%.2f ", presentValue);
@@ -71,7 +71,6 @@ public class Main {
 //    annual interest rate
 //    number of years
 //}
-//
 //Ask the customer for each one:
 //monthly payment
 //      collect their input
