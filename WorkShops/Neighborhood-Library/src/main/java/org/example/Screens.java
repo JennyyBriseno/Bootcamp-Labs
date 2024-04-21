@@ -6,7 +6,7 @@ import static org.example.Library.bookList;
 
 
 public class Screens {
-
+//Displays initial options
     public static void homeScreen() {
         Scanner scanner = new Scanner(System.in);
         //ask about recursion
@@ -37,11 +37,13 @@ public class Screens {
             return;
         }
     }
+
+    //Displays all available books
     public static void availableBooks() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Here is a list of available books to check out! ");
         Library.checkedInBooks(false);
-        while (true) {
+        while(true) {
             System.out.println("""
                     Choose an option:
                     1) Checkout a book
@@ -64,6 +66,7 @@ public class Screens {
         }
     }
 
+//Method to check out the books
     public static void checkOutBook() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What book would you like to check out? Please select an ID: ");
@@ -72,21 +75,21 @@ public class Screens {
         scanner.nextLine();
         System.out.println("What is your name? ");
         String nameOfPerson = scanner.nextLine();
-        for(Books books : bookList){
-            if(books.getId() == idChosen) {
+        for (Books books : bookList) {
+            if (books.getId() == idChosen) {
                 books.checkOut(nameOfPerson);
                 System.out.println(nameOfPerson + " : " + books.getTitle());
                 Screens.homeScreen();
             }
             counter++;
         }
-        if (counter == 0)
-        System.out.println("The ID is invalid, please try again! ");
-        checkOutBook();
-
-
+        if (counter == 0) {
+            System.out.println("The ID is invalid, please try again! ");
+            checkOutBook();
+        }
     }
 
+    //Method that displays checked out books
     public static void checkedOutBooks() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Here is a list of checked out books: ");
@@ -110,25 +113,26 @@ public class Screens {
                 break;
         }
 
-
-
     }
+
+    //Method that checks in book
     public static void checkInBook() {
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
         System.out.println("What book would you like to check in? Please select an ID: ");
         int idChosen = scanner.nextInt();
         scanner.nextLine();
-        for(Books books : bookList){
-            if(idChosen == books.getId()) {
+        for (Books books : bookList) {
+            if (idChosen == books.getId()) {
                 System.out.println(books.getCheckedOutTo() + " : " + books.getTitle());
                 books.checkIn();
                 homeScreen();
                 counter++;
             }
         }
-        if (counter == 0)
+        if (counter == 0) {
             System.out.println("The ID is invalid, please try again! ");
-        checkInBook();
+            checkInBook();
+        }
     }
 }
