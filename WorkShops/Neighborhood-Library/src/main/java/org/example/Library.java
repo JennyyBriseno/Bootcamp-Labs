@@ -35,7 +35,6 @@ public class Library {
                 counter++;
             }
             if (counter == 0) {
-                System.out.println("dkfd");
             }
         }
     }

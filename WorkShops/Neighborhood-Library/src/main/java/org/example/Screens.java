@@ -25,7 +25,6 @@ public class Screens {
                 case ("2"):
                     Screens.checkedOutBooks();
                     break;
-
                 case ("3"):
                     System.out.println("You chose to exit. ");
                     System.exit(0);
