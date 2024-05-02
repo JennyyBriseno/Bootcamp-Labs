@@ -54,6 +54,7 @@ public class Reports {
     public static void filterByPreviousYear() {
         ArrayList<Transaction> transactions = FileManager.getTransactions();
         LocalDate lastYear = LocalDate.now().minusYears(1);
+
         for (int i = transactions.size() - 1; i >= 0; i--) {
             String[] filter = transactions.get(i).getDate().split("-");
             int year = Integer.parseInt(filter[0]);
@@ -67,6 +68,7 @@ public class Reports {
         System.out.println("Please type in a vendor name: ");
         String vendorName = scanner.nextLine();
         ArrayList<Transaction> transactions = FileManager.getTransactions();
+
         for (int i = transactions.size() - 1; i >= 0; i--) {
             if (transactions.get(i).getVendor().toLowerCase().equals(vendorName)) {
                 System.out.println(transactions.get(i));

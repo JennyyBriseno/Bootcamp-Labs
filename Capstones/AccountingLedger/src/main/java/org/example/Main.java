@@ -3,6 +3,23 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Screens.HomeScreen();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        PSEUDO CODE-ACCOUNTING LEDGER
 //        Main class will only hold method that calls main screen
 //
