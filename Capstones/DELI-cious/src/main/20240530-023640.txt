@@ -1,0 +1,17 @@
+------------------~🌸SANDWICH COMPONENTS🌸~------------------
+Bread type ~ wheat
+Sandwich size ~ TWELVEINCH
+Toasted Option ~ true
+Regular toppings ~ []
+Meats added ~ [steak, ham]
+Cheese added ~ []
+Sandwich price ~ $13.0
+------------------~🌸DRINK🌸~------------------
+Flavor ~ Coca-Cola
+Drink size ~ SMALL
+Drink price ~ $2.0
+------------------~🌸CHIP🌸~------------------
+Chip flavor ~ Lemon Lays
+Chip total price ~ $1.5
+-----------------------
+TOTAL PRICE: 16.5

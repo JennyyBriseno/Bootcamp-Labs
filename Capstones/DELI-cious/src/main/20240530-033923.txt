@@ -1,0 +1,22 @@
+✿❀----------RECEIPT----------❀✿ 
+------------------~🌸SANDWICH COMPONENTS🌸~------------------
+Bread type ~ white
+Sandwich size ~ TWELVEINCH
+Toasted Option ~ true
+Regular toppings ~ [lettuce, guacamole, mayo, au jus]
+Meats added ~ [steak, bacon]
+Cheese added ~ [cheddar]
+Sandwich price ~ $15.25
+------------------~🌸DRINK🌸~------------------
+Flavor ~ Dr.Pepper
+Drink size ~ SMALL
+Drink price ~ $2.0
+------------------~🌸DRINK🌸~------------------
+Flavor ~ Big Red
+Drink size ~ MEDIUM
+Drink price ~ $2.5
+------------------~🌸CHIP🌸~------------------
+Chip flavor ~ Lays Jalapeño
+Chip total price ~ $1.5
+﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
+TOTAL PRICE ~ 21.25
