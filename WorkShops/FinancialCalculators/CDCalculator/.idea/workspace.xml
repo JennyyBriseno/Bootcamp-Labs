@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258334f1-d64e-429d-acb5-01f070251fc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Labs/PayrollCalculator/src/main/java/org/example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Labs/PayrollCalculator/src/main/resources/employees.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Labs/CellPhoneService/src/main/java/org/example/cellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs/CellPhoneService/src/main/java/org/example/cellPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Labs/CellPhoneService/src/main/java/org/example/cellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs/CellPhoneService/src/main/java/org/example/cellPhoneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/DoWhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/ForLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs/LoopsExercise/src/main/java/org/example/WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Capstones/AccountingLedger/src/main/resources/transactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Capstones/AccountingLedger/src/main/resources/transactions.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +23,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/LearnToCode/Bootcamp-Labs/WorkShops/FinancialCalculators/CDCalculator&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/LearnToCode/Bootcamp-Labs/BasicCalculator"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
