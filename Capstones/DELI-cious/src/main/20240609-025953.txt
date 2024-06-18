@@ -1,0 +1,14 @@
+✿❀----------RECEIPT----------❀✿ 
+------------------~🌸SANDWICH COMPONENTS🌸~------------------
+Bread type ~ white
+Sandwich size ~ EIGHTINCH
+Toasted Option ~ true
+Regular toppings ~ []
+Meats added ~ [ham, chicken, bacon]
+Cheese added ~ [swiss, provolone]
+Sandwich price ~ $13.1
+------------------~🌸CHIP🌸~------------------
+Chip flavor ~ Hot Fries
+Chip total price ~ $1.5
+﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
+TOTAL PRICE ~ $14.6
