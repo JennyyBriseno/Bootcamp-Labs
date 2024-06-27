@@ -32,6 +32,7 @@ public class CategoriesController
     @Autowired
     private ProductDao productDao;
 
+    //WORKS
     // add the appropriate annotation for a get action
     @GetMapping
     @PreAuthorize("permitAll()")
@@ -45,6 +46,7 @@ public class CategoriesController
             return new ResponseEntity<>(categories, HttpStatus.OK);
     }
 
+    //WORKS
     // add the appropriate annotation for a get action
     @GetMapping("/{id}")
     @PreAuthorize("permitAll()")
@@ -59,6 +61,7 @@ public class CategoriesController
             return new ResponseEntity<>(categories, HttpStatus.OK);
     }
 
+    //WORKS
     // the url to return all products in category 1 would look like this
     // https://localhost:8080/categories/1/products
     @GetMapping("{categoryId}/products")
@@ -74,6 +77,7 @@ public class CategoriesController
             return new ResponseEntity<>(products, HttpStatus.OK);
         }
 
+    //WORKS
     // add annotation to call this method for a POST action
     @PostMapping
     // add annotation to ensure that only an ADMIN can call this function
@@ -91,6 +95,7 @@ public class CategoriesController
         }
     }
 
+    //WORKS
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
     @PutMapping("{id}")
     // add annotation to ensure that only an ADMIN can call this function
@@ -107,6 +112,7 @@ public class CategoriesController
             return new ResponseEntity<>(categoryUpdated,HttpStatus.OK);
     }
 
+    //WORKS
     // add annotation to call this method for a DELETE action - the url path must include the categoryId
     @DeleteMapping("/{id}")
     // add annotation to ensure that only an ADMIN can call this function
